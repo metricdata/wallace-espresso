@@ -1,0 +1,46 @@
+
+
+.hero-image{
+
+	max-width: 100%;
+	height: auto;
+	display:block;
+	background-image: url("img/Wallace-Hero.jpg");
+
+}
+
+/* @media screen and (max-width: 768x){
+	img{
+		display: none}
+	}
+}  */
+.locations{
+	background-image: url("../img/white-wood-large.jpg");
+	height:400px;
+	background-size: cover;
+	width: 100%;
+}
+
+.container-fluid {
+	padding: 0px;
+}
+
+
+
+
+h1 {
+ font-family: bebas_neuebold;
+}
+
+@font-face {
+    font-family: 'bebas_neuebold';
+    src: url('bebasneue_bold.eot');
+    src: url('bebasneue_bold.eot?#iefix') format('embedded-opentype'),
+         url('bebasneue_bold.woff2') format('woff2'),
+         url('bebasneue_bold.woff') format('woff'),
+         url('bebasneue_bold.ttf') format('truetype'),
+         url('bebasneue_bold.svg#bebas_neuebold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
